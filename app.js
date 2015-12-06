@@ -17,4 +17,8 @@ righthand.note('quarter', 'E5')
 .note('quarter', 'D4')
 
 var player = music.finish();
-player.play();
+// player.play();
+
+var playMusic = function(){
+  player.play()
+}
